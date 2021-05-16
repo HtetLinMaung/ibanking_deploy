@@ -1,0 +1,78 @@
+{
+    "app_name" : "Nirvasoft",
+    "logo" : "assets/img/MIT.png",
+    "domain" : [
+        {
+          "caption": "Organization",
+          "menuLink": "",
+          "menuItem": [
+              {
+                  "caption": "MIT",
+                  "menuLink": "/main/mit/dashboard",
+                  "menuItem": null
+              },
+              {
+                  "caption": "Nirvasoft",
+                  "menuLink": "/main/hcm/dashboard",
+                  "menuItem": null
+              }
+          ]
+      }
+    ],
+    "menu": [
+        {
+          "caption": "Dashboard",
+          "menuLink": "/main/hcm/dashboard",
+          "menuItem": null
+        },
+        {
+          "caption": "Accounting",
+          "menuLink": "hcm/accounting",
+          "menuItem": null
+        },
+        {
+          "caption": "Projects",
+          "menuLink": "",
+          "menuItem": [
+            {
+              "caption": "Development and Succession",
+              "menuLink": "/admin/developmentandsuccession/list",
+              "menuItem": null
+            },
+            {
+              "caption": "Admin Order",
+              "menuLink": "/admin/order/list",
+              "menuItem": null
+            }
+          ]
+        },
+        {
+          "caption": "Business",
+          "menuLink": "hcm/business",
+          "menuItem": null
+        }
+      ],
+      "rightMenu": [
+        {
+          "caption": "fa fa-bell",
+          "menuLink": "/login",
+          "menuItem": null
+        },
+        {
+          "caption": "fa fa-cog",
+          "menuLink": "",
+          "menuItem": [
+            {
+              "caption": "Change Pager",
+              "menuLink": "/system/changepager",
+              "menuItem": null
+            },
+            {
+              "caption": "Configuration",
+              "menuLink": "/system/Configuration",
+              "menuItem": null
+            }
+          ]
+        }
+      ]
+    }

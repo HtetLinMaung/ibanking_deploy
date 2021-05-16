@@ -1,0 +1,67 @@
+{
+    "app_name" : "MIT",
+    "logo" : "assets/img/MIT.png",
+    "domain" : [
+        {
+          "caption": "Organization",
+          "menuLink": "",
+          "menuItem": [
+              {
+                  "caption": "MIT",
+                  "menuLink": "/main/mit/dashboard",
+                  "menuItem": null
+              },
+              {
+                  "caption": "Nirvasoft",
+                  "menuLink": "/main/hcm/dashboard",
+                  "menuItem": null
+              }
+          ]
+      }
+    ],
+    "menu": [
+        {
+          "caption": "Expenses",
+          "menuLink": "/main/hcm/dashboard",
+          "menuItem": null
+        },
+        {
+          "caption": "Insurance",
+          "menuLink": "hcm/accounting",
+          "menuItem": null
+        },
+        {
+          "caption": "Reports",
+          "menuLink": "",
+          "menuItem": [
+            {
+              "caption": "Human Resource",
+              "menuLink": "/admin/developmentandsuccession/list",
+              "menuItem": null
+            },
+            {
+              "caption": "Admin Order",
+              "menuLink": "/admin/order/list",
+              "menuItem": null
+            },
+            {
+              "caption": "Finance",
+              "menuLink": "/admin/order/list",
+              "menuItem": null
+            }
+          ]
+        },
+        {
+          "caption": "Attendance",
+          "menuLink": "hcm/business",
+          "menuItem": null
+        }
+      ],
+      "rightMenu": [
+        {
+          "caption": "fa fa-bell",
+          "menuLink": "/login",
+          "menuItem": null
+        }
+      ]
+    }

@@ -1,0 +1,15 @@
+{
+    "app": "MIT",
+    "appid": "hcm",
+    "ver": "1.0.0",
+    "title": "IAM Version 1.0.0",
+    "hosturl": "https://iam-app.azurewebsites.net/api/",
+    "domain_type": "single",
+    "domain": "demo",
+    "project_type": "full",
+    "auth_route": "/main",
+    "product_route": "/ibanking",
+    "product_default_route": "/main/ibanking/dashboard",
+    "type": 0,
+    "skipdomain": true
+}
