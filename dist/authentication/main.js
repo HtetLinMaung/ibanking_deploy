@@ -4400,13 +4400,14 @@ class LoginComponent {
             password: signInForm.value._pw,
             appid: this.main.config.appid,
         };
-        this.main.doPost('signin', loginData).subscribe((d) => {
-            const data = {
-                atoken: 'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ7XCJhcHBpZFwiOlwiaGNtXCIsXCJ1c2VyaWRcIjpcInN5dEBtaXQuY29tLm1tXCJ9IiwiZXhwIjoxNjIxMTc1MTE1LCJpYXQiOjE2MjExNzMzMTV9.26MBbh4mCODtCqfh66s6y13MdJX95MTkZ9MfyD_vPSQ',
-                message: 'Successful',
-                returncode: '300',
-                type: 0,
-            };
+        this.main.doPost('signin', loginData).subscribe((data) => {
+            // const data: any = {
+            //   atoken:
+            //     'eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ7XCJhcHBpZFwiOlwiaGNtXCIsXCJ1c2VyaWRcIjpcInN5dEBtaXQuY29tLm1tXCJ9IiwiZXhwIjoxNjIxMTc1MTE1LCJpYXQiOjE2MjExNzMzMTV9.26MBbh4mCODtCqfh66s6y13MdJX95MTkZ9MfyD_vPSQ',
+            //   message: 'Successful',
+            //   returncode: '300',
+            //   type: 0,
+            // };
             if (data != null) {
                 if (data.returncode == '300') {
                     this.main.profile.userid = signInForm.value._user;
